@@ -214,7 +214,10 @@ fieldset[disabled] .body_clase .slide_main input {
 }
 
 #indice .unit-content .header {
-    border-radius: 0px;
+    border: 0px solid #9665AB;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
 
 }
 
@@ -230,16 +233,15 @@ fieldset[disabled] .body_clase .slide_main input {
 }
 
 #indice .units ul li {
-    border-radius: 0px;
-    background: #e5e5e5;
-    padding: 2px;
+    -webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	        border-radius: 0px;
  }
 
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-	background: #FFEDB3;
-    border-left: 10px solid #898989;
+	background: #EC968C;
 }
 
 #indice .units ul li:not(.add) a .title {
@@ -309,7 +311,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 }
 
 #book-index #indice .unit-content .actividades .item .title {
-    font-weight: 800;
+    font-weight: 400;
     font-size: 1.7rem;
 }
 
