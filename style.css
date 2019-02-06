@@ -985,7 +985,7 @@ strong {
 #actividad .content .workspace ul li ol.bck-ol-4 li:before {
 	content: counter(bck-li-counter);
     margin-top: 2px;
-    padding-right: 0px;
+    padding-right: 10px;
     color: #1D1D1B;
     font-size: 1.3rem;
     font-weight: 800;
@@ -1958,16 +1958,47 @@ table td.bck-td-tres {
 }
 
 /*Desplegable 1*/
-.bck-dropdown.pruebamaider-dropdown {
-	background-color: #FBA81C;
+.bck-dropdown.bck-dropdown-1 {
+	background-color: #D4D4D4;
+	border: none;
+	margin-top: 10px;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	        border-radius: 0px;
 }
 
-.pruebamaider-dropdown .bck-dropdown-icon {
-	background-color: #FBA81C;
+.bck-dropdown-1 .bck-dropdown-button {
+	margin-top: 0px;
+	font-size: 1.2rem;
 }
 
-.pruebamaider-dropdown .bck-dropdown-content {
-	background-color: #F2E7D1;
+.bck-dropdown-1 .bck-dropdown-icon {
+	background-color: #D4D4D4;
+	width: 25px;
+	height: 10px;
+}
+
+.bck-dropdown-1 .bck-dropdown-icon > .fa {
+	border: 0px solid white;
+}
+
+.bck-dropdown-1 .fa-chevron-up:before, .bck-dropdown-1 .fa-chevron-down:before {
+	font-size: 1.2rem;
+}
+
+.bck-dropdown-1 .bck-dropdown-titulo {
+    font-size: 2.5rem;
+    padding-left: 0px;
+    font-weight: bold;
+
+}
+
+.bck-dropdown-1 .bck-dropdown-content {
+	background-color: #D4D4D4;
+	border: none;
+    padding-left: 37px;
+	max-height: 800%;
+	font-weight: 400;
 }
 
 /**/
