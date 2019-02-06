@@ -990,7 +990,7 @@ strong {
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
     counter-increment: bck-li-counter;
-    padding-left: 0px;
+    padding-left: 15px;
     position: relative;
     z-index: 0;
     font-size: 1.85rem;
