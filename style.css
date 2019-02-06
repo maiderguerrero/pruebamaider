@@ -590,7 +590,8 @@ body.is_app .pruebamaider-navbar.ocultar {
 	width: 33%;
 	display: inline-block;
     float: right;
-    margin: 22px 0px 0px 40px;
+    margin: 0px;
+    padding-top: 10px;
 }
 
 .open > .dropdown-menu {
@@ -2151,6 +2152,7 @@ table td.bck-td-tres {
 	    padding: 0px;
 	    margin: 0px 15px 0px 30px;
 	    max-width: 350px;
+	    padding-top: 10px;
 	}
 
 	.body_clase .pruebamaider-navbar .dropdown button {
