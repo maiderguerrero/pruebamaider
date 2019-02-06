@@ -498,7 +498,7 @@
 
 	pruebamaiderStyle.prototype = _.extend({}, new blink.theme.styles.basic(), pruebamaiderStyle.prototype);
 
-	blink.theme.styles['pruebamaider_educacion'] = pruebamaiderStyle;
+	blink.theme.styles['pruebamaider'] = pruebamaiderStyle;
 
 })( blink );
 
