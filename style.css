@@ -505,6 +505,7 @@ body.is_app .pruebamaider-navbar.ocultar {
     padding-right: 40px;
     margin-left: 50px;
     width: 45%;
+    padding-top: 10px;
 }
 
 .body_clase .pruebamaider-navbar .dropdownTemas:focus,
