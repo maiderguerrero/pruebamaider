@@ -423,6 +423,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
 	z-index: 100;
 	background-color: #be1f24;
 	padding-top: 0px;
+	height: 41px;
 }
 
 .body_clase .modo-revision ~ .pruebamaider-navbar .navbar-content h2 #nombre-tema-wrapper {
