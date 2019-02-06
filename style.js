@@ -68,7 +68,7 @@
 				{ name: 'Celda2', element: 'td', attributes: { 'class': 'bck-td-dos'} },
 				{ name: 'Celda morada', element: 'td', attributes: { 'class': 'bck-td-tres'} },
 
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pruebamaider-dropdown' } },
+				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pruebamaider-dropdown-2' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
