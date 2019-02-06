@@ -1959,7 +1959,7 @@ table td.bck-td-tres {
 
 /*Desplegable 1*/
 .bck-dropdown.bck-dropdown-1 {
-	background-color: #D4D4D4;
+	background-color: #b7b7b7;
 	border: none;
 	margin-top: 10px;
 	-webkit-border-radius: 0px;
@@ -1973,7 +1973,7 @@ table td.bck-td-tres {
 }
 
 .bck-dropdown-1 .bck-dropdown-icon {
-	background-color: #D4D4D4;
+	background-color: #b7b7b7;
 	width: 25px;
 	height: 10px;
 }
@@ -1984,12 +1984,14 @@ table td.bck-td-tres {
 
 .bck-dropdown-1 .fa-chevron-up:before, .bck-dropdown-1 .fa-chevron-down:before {
 	font-size: 1.2rem;
+	color: #fff;
 }
 
 .bck-dropdown-1 .bck-dropdown-titulo {
     font-size: 2.5rem;
     padding-left: 0px;
     font-weight: bold;
+    color: #fff;
 
 }
 
