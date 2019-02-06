@@ -869,12 +869,14 @@ strong {
 
 /*LISTA ORDENADA 1*/
 
+#actividad .content .cke_contents .bck-ol-1,
 #actividad .content .texto_curso .bck-ol-1,
 #actividad .content .workspace ul li .bck-ol-1 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 }
 
+#actividad .content .cke_contents .bck-ol-1 li,
 #actividad .content .texto_curso .bck-ol-1 li,
 #actividad .popover-content .bck-ol-1 li,
 #actividad .content .workspace ul li .bck-ol-1 li {
@@ -902,6 +904,7 @@ strong {
 
 /*LISTA ORDENADA 2*/
 
+#actividad .content .cke_contents .bck-ol-2,
 #actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ul li .bck-ol-2 {
 	list-style-type: none;
@@ -937,12 +940,14 @@ strong {
 
 /*LISTA ORDENADA 3*/
 
+#actividad .content .cke_contents .bck-ol-3,
 #actividad .content .texto_curso .bck-ol-3,
 #actividad .content .workspace ul li .bck-ol-3 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 }
 
+#actividad .content .cke_contents .bck-ol-3 li,
 #actividad .content .texto_curso .bck-ol-3 li,
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
@@ -955,7 +960,7 @@ strong {
 
 }
 
-
+#actividad .content .cke_contents ol.bck-ol-3 li:before,
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
