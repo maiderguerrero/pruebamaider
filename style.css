@@ -783,6 +783,8 @@ strong {
 
 /*listas*/
 
+/*LISTAS DESORDENADAS*/
+
 .content ol li, .cke_contents ol li {
     padding-left: 32px;
 }
@@ -837,24 +839,34 @@ strong {
 	color: #9665AB;
 }
 
-#actividad .content .texto_curso .bck-ol li,
-#actividad .content .workspace ul li .bck-ol li {
+/**/
+
+/*LISTAS ORDENADAS*/
+
+/*LISTA ORDENADA 1*/
+
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
     padding-left: 0px;
 }
 
-#actividad .content .texto_curso .bck-ol li:before,
-#actividad .content .workspace ul li .bck-ol li:before {
-	content: counter(bck-li-counter)'';
-	position: absolute;
-	left: -46px;
-	width: 38px;
-	text-align: right;
-    font-size: 2.0rem;
-    color: #0095DA;
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol- li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+	content: counter(bck-li-counter);
+  	margin-top: 1px;
+  	padding-right: 0px;
+  	color: #A9A9A8;
+  	font-size: 7.5rem;
+  	font-weight: 100;
+  	text-align: right;
 }
+
+/*LISTA ORDENADA 2*/
 
 #actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ul li .bck-ol-2 {
@@ -888,7 +900,7 @@ strong {
     position: relative;
 }
 
-
+/*LISTA ORDENADA 3*/
 
 #actividad .content .texto_curso .bck-ol-3,
 #actividad .content .workspace ul li .bck-ol-3 {
@@ -916,6 +928,8 @@ strong {
     color: #1777c4;
     position: relative;
 }
+
+
 
 /**/
 
