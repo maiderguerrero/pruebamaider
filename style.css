@@ -421,8 +421,8 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
 	width: 100%;
 	left: 0;
 	z-index: 100;
-	background-color: #FFEDB3;
-	padding-top: 11px;
+	background-color: #be1f24;
+	padding-top: 0px;
 }
 
 .body_clase .modo-revision ~ .pruebamaider-navbar .navbar-content h2 #nombre-tema-wrapper {
@@ -532,11 +532,10 @@ body.is_app .pruebamaider-navbar.ocultar {
 	font-weight: 600;
 	font-size: 2.5rem;
 	margin-bottom: 0;
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-left: 60px;
 	position: relative;
 	text-align: left;
-	height: 80px;
     vertical-align: middle;
     display: table-cell;
 }
@@ -1014,6 +1013,7 @@ strong {
 #actividad .content .workspace ul li .bck-ol-4 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
+	
 }
 
 #actividad .content .cke_contents .bck-ol-4 li,
@@ -2085,7 +2085,7 @@ table td.bck-td-tres {
 	}
 
 	.body_clase .pruebamaider-navbar .dropdown button {
-		padding-bottom: 25px;
+		padding-bottom: 0px;
 	}
 
 	.body_clase:not(.edit) .logo-publisher {
