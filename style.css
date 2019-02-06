@@ -480,7 +480,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 	margin: 0;
 	text-align: left;
 	border: none;
-	color: #898989;
+	color: #D4D4D4;
     vertical-align: bottom;
 }
 
@@ -489,7 +489,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 }
 
 .body_clase .pruebamaider-navbar .dropdown .caret {
-	border-color: #898989 transparent transparent transparent;
+	border-color: #D4D4D4 transparent transparent transparent;
 	margin-left: 10px;
 }
 
@@ -519,7 +519,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 }
 
 .body_clase .pruebamaider-navbar .dropdownTemas .caret{
-	border-color: #898989 transparent transparent transparent;
+	border-color: #D4D4D4 transparent transparent transparent;
 	margin-left: 10px;
 }
 
