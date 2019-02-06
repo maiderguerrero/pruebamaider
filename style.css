@@ -1042,79 +1042,37 @@ strong {
 
 
 /*Cajas*/
-.bck-box {
-	max-width: 100%;
-	margin-bottom: 20px;
+
+/*CAJA 1*/
+
+.bck-box.bck-box-1 {
+    min-height: 80px;
+    margin-top: 15px;
+    background-color: #D4D4D4;
 }
 
-.bck-box .bck-title {
-    font-size: 2.0rem;
-    margin-bottom: 0px;
-}
 
-.bck-box.center {
-	display: block;
-	text-align: center;
-}
-
-.bck-box.center .bck-content {
-	position: relative;
-}
-
-.bck-box.left, img[style~="float:right"] {
-	float: left;
-	margin-right: 30px;
-}
-
-.bck-box.right, img[style~="float:left"] {
-	float: right;
-	margin-left: 30px;
-}
-
-.bck-box img {
-	max-width: 100%;
-}
-
-.bck-box .bck-content {
-	text-align: justify;
-	padding: 10px;
-}
-
-.bck-box.simple {
-    background-color: #f7f2df;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.bck-box.simple:after {
-    background: none;
-}
-
-.body_clase:not(.android) .bck-box.simple:before {
-    transform: none;
-    -ms-transform: skewY(0deg);
-    -webkit-transform: skewY(0deg);
-}
-
-.bck-box.simple:before {
-    background-color: #F2DBF2;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-top: 2px;
-}
-
-.bck-box.simple .bck-title {
-    background-color: #FBA81C;
+.bck-box-1 .bck-title {
+    border-bottom: 0px solid #eee;
     color: #fff;
-    font-weight: bold;
-    display: inline-block;
-    padding: 10px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    width: 50%;
-    padding-left: 30px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    background-color: #D4D4D4;
+    text-align: left;
+    padding-left: 20px;
 }
+
+.bck-box.bck-box-1 .bck-content {
+    padding: 20px;
+    background-color: #D4D4D4;
+    font-weight: 400;
+}
+
+
+
+
+
+/*CAJA 2*/
 
 .bck-box.simple-2 {
 	background-color: #D8EEF9;
