@@ -206,6 +206,37 @@ fieldset[disabled] .body_clase .slide_main input {
 }
 /**/
 
+/*CSS LIBRO*/
+
+/*Listas poicion absoluta*/
+
+ li:before{
+    position: absolute !important;
+    left: -30px !important;
+}
+
+/*crucigrama*/
+
+.slide.crosswords-puzzle .enunciados {
+    border: 2px solid #dedede;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: none;
+    width: 350px;
+    padding: 1rem 3rem;
+    line-height: 2.1rem;
+}
+
+.puzzle-wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 13px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    margin-left: 25%;
+}
+
 /* CURSO */ /*INDICE LATERAL*/
 
 .libro-left #btn-book-index,
