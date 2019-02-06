@@ -268,13 +268,21 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
     display: block;
 }
 
+
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 #book-index #indice .units ul li.active a {
-	background: #FFEDB3 !important;
+	color: #fff;
+    background: #be1f24;
 }
 
 #book-index .col-main {
-	background: #FFEDB3 !important;
+	top: 0;
+    left: 0;
+    z-index: 2;
+    background: #be1f24 !important;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 #book-index #indice .units ul li a .title {
