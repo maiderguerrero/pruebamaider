@@ -210,10 +210,7 @@ fieldset[disabled] .body_clase .slide_main input {
 
 /*Listas poicion absoluta*/
 
- li:before{
-    position: absolute !important;
-    left: -30px !important;
-}
+ 
 
 /*crucigrama*/
 
