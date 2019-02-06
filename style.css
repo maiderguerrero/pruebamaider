@@ -867,9 +867,10 @@ strong {
   font-weight: 100;
 }
 
+
 #actividad .content .cke_contents .bck-ol-1 li:before,
-#actividad .content .texto_curso .bck-ol- li:before,
-#actividad .content .workspace ul li .bck-ol-1 li:before {
+#actividad .content .texto_curso ol.bck-ol-1 li:before,
+#actividad .content .workspace ul li ol.bck-ol-1 li:before {
 	content: counter(bck-li-counter);
   	margin-top: 1px;
   	padding-right: 0px;
