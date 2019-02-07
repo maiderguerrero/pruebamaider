@@ -973,11 +973,11 @@ strong {
 	width: 20px;
 	text-align: right;
 	color: #9ACB1E;
-        font-size: 1.9rem;
-        font-family: sans-serif;
-        font-weight: normal;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    font-weight: normal;
 	position: absolute;
-        left: -30px ;
+    left: -30px ;
 }
 
 /*LISTA ORDENADA 1*/
@@ -988,7 +988,7 @@ strong {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 	padding-inline-start: 20px;
-	font-family: 'Conv_FuturaStd-Light', sans-serif;
+
 }
 
 #actividad .content .cke_contents .bck-ol-1 li,
@@ -1002,6 +1002,7 @@ strong {
   color: #414141;
   font-size: 7.5rem;
   font-weight: 100;
+  font-family: 'Conv_FuturaStd-Light', sans-serif;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
@@ -1017,6 +1018,7 @@ strong {
   text-align: right;
   position: absolute;
   left: -30px ;
+  font-family: 'Conv_HelveticaLTStd-Light', sans-serif;
 }
 
 /*LISTA ORDENADA 2*/
@@ -1067,7 +1069,7 @@ strong {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 	padding-inline-start: 20px;
-	font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
+	
 }
 
 #actividad .content .cke_contents .bck-ol-3 li,
@@ -1081,6 +1083,7 @@ strong {
     font-size: 1.85rem;
     font-weight: bold;
     list-style-type: none;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
 
 }
 
@@ -1089,15 +1092,16 @@ strong {
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
 	content: counter(bck-li-counter);
-   	 margin-top: -1px;
-   	 padding-right: 0px;
+   	margin-top: -1px;
+   	padding-right: 0px;
 	color: #BE1F24;
 	font-size: 2.4rem;
 	font-weight: bold;
   	text-align: right;
-        left: -30px;
+    left: -30px;
 	position: absolute;
-        left: -18px ;
+    left: -18px ;
+    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
 }
 
 
