@@ -782,21 +782,7 @@ body.is_app .pruebamaider-navbar.ocultar {
     margin-bottom: 30px;
 }
 
-.bck-title2 {
-    color: #9665AB;
-    font-size: 2.1rem;
-    font-weight: bold;
-    border-bottom: 1px solid #9665AB;
-	position: relative;
-}
 
-.bck-title3 {
-    color: #FF8400;
-    font-size: 2.4rem;
-    font-weight: 600;
-    display: inline-block;
-	position: relative;
-}
 
 strong {
     color: #444;
@@ -1188,78 +1174,8 @@ strong {
     font-family: 'Averia Serif Libre', Georgia, serif;
 }
 
-.titulotema{
-	font-family: handicraft;
-    font-weight: 600;
-    text-align: center;
-    background: #001721;
-    color: #D3A468;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    border-left: 15px solid #CC4E43;
-}
 
-.azul {
-	font-family: handicraft;
-    background: #00BDF2;
-    font-size: 34px;
-    color: #fff;
-    font-weight: normal;
-    padding: 40px 15px 20px 15px;
-    margin-bottom: 35px;
-    text-align: left;
-}
 
-.azuldos{
-	font-family: handicraft;
-    color: #00BDF2;
-    font-size: 3rem;
-}
-
-.azuldos:before {
-    content: "";
-    background: #00BDF2;
-    padding: 0px 19px;
-    margin-right: 10px;
-    border-radius: 100%;
-}
-
-.azulquimica {
-	font-family: handicraft;
-    color: #51ace2;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-.evaluacion {
-	font-family: handicraft;
-    text-align: center;
-    font-size: 4.8rem;
-    font-weight: 500;
-    color: #F67020;
-    background-size: 900px;
-    padding: 20px 0px 20px 20px;
-    margin-top: -30px;
-    background-image: url(images/ciudadania/img_fondoEva1.jpg) !important;
-    background-blend-mode: overlay;
-}
-
-.proyecto{
-	font-family: handicraft;
-    text-align: center;
-    font-size: 4.8rem;
-    font-weight: 500;
-    color:#8B4513;
-    padding: 20px 0px 20px 20px;
-}
-
-.proyectodos{
-	font-family: handicraft;
-    color: #8B4513;
-    font-size: 2.8rem;
-    font-weight: 500;
-}
 
 
 /**2**/
@@ -1672,15 +1588,15 @@ table td.bck-td-tres {
 	border-top-right-radius: 20px;
 }
 
-.pruebamaider-dropdown .bck-dropdown-icon, .pruebamaider-dropdown-2 .bck-dropdown-icon {
+.bck-dropdown-1 .bck-dropdown-icon {
 	color: white;
 }
 
-.pruebamaider-dropdown .bck-dropdown-icon > .fa, .pruebamaider-dropdown-2 .bck-dropdown-icon > .fa {
+.bck-dropdown-1 .bck-dropdown-icon > .fa {
 	border: 3px solid white;
 }
 
-.pruebamaider-dropdown .bck-dropdown-titulo, .pruebamaider-dropdown-2 .bck-dropdown-titulo{
+.bck-dropdown-1 .bck-dropdown-titulo {
 	color: white;
 }
 
@@ -1730,24 +1646,7 @@ table td.bck-td-tres {
 	font-weight: 400;
 }
 
-/**/
 
-/*Desplegable 2*/
-.bck-dropdown.pruebamaider-dropdown-2 {
-	background-color: #9665AB;
-}
-
-.pruebamaider-dropdown-2 .bck-dropdown-icon {
-	background-color: #9665AB;
-}
-
-.pruebamaider-dropdown-2 .bck-dropdown-content {
-	background-color: #e5b7e4;
-}
-
-.edit .pruebamaider-dropdown-2 .bck-dropdown-content {
-	color: white;
-}
 /**/
 /****/
 
