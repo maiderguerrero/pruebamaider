@@ -15,8 +15,6 @@
 			styles: [
 				{ name: 'Título base', element: 'h2', attributes: { 'class': 'titulobase'} },
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
-				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
 
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
@@ -41,7 +39,6 @@
 				{ name: 'Celda morada', element: 'td', attributes: { 'class': 'bck-td-tres'} },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pruebamaider-dropdown-2' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
