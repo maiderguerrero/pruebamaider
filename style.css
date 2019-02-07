@@ -1066,6 +1066,7 @@ strong {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 	padding-inline-start: 20px;
+	font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
 }
 
 #actividad .content .cke_contents .bck-ol-3 li,
@@ -1107,6 +1108,7 @@ strong {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 	padding-inline-start: 20px;
+	font-family: 'Conv_CheltenhamStd-Book', sans-serif;
 	
 }
 
@@ -1151,6 +1153,7 @@ strong {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 	padding-inline-start: 20px;
+	font-family: 'Conv_CheltenhamStd-Book', sans-serif;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li,
