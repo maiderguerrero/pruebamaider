@@ -874,7 +874,7 @@ body.is_app .pruebamaider-navbar.ocultar {
     border-left: 0px;
     padding: 0px;
     margin-bottom: 30px;
-    font-family:'Conv_CheltenhamStd-Bold',Sans-Serif;
+    font-family: 'Conv_FuturaStd-Light', sans-serif;
 }
 
 
@@ -988,6 +988,7 @@ strong {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 	padding-inline-start: 20px;
+	font-family: 'Conv_FuturaStd-Light', sans-serif;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li,
