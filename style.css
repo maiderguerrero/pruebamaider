@@ -1219,12 +1219,14 @@ strong {
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
+    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
 }
 
 .bck-box.bck-box-1 .bck-content {
     padding: 20px;
     background-color: #D4D4D4;
     font-weight: 400;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
 }
 
 
