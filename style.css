@@ -1013,7 +1013,7 @@ strong {
   margin-top: 1px;
   padding-right: 0px;
   color: #A9A9A8;
-  font-size: 7.5rem;
+  font-size: 8.5rem;
   font-weight: 100;
   text-align: right;
   position: absolute;
@@ -1138,7 +1138,7 @@ strong {
 #actividad .popover-content ol.bck-ol-4 li:before,
 #actividad .content .workspace ul li ol.bck-ol-4 li:before {
     content: counter(bck-li-counter);
-    margin-top: 2px;
+    margin-top: 0px;
     padding-right: 0px;
     color: #1D1D1B;
     font-size: 1.3rem;
@@ -1748,6 +1748,8 @@ table td.bck-td-tres {
     padding-left: 37px;
 	max-height: 800%;
 	font-weight: 400;
+	font-weight: 1.7rem;
+	font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
 }
 
 
