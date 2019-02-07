@@ -17,13 +17,7 @@
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
-				{ name: 'Título tema', element: 'h3', attributes: { 'class': 'titulotema'} },
-				{ name: 'Título azul', element: 'h3', attributes: { 'class': 'azul'} },
-				{ name: 'Título azul 2', element: 'h3', attributes: { 'class': 'azuldos'} },
-				{ name: 'Título azul quÃ­mica', element: 'h3', attributes: { 'class': 'azulquimica'} },
-				{ name: 'Proyecto', element: 'h3', attributes: { 'class': 'proyecto'} },
-				{ name: 'Proyecto 2', element: 'h3', attributes: { 'class': 'proyectodos'} },
-				{ name: 'EvaluaciÃ³n', element: 'h3', attributes: { 'class': 'evaluacion'} },
+
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
