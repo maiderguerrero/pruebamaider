@@ -10,6 +10,95 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Conv_CheltenhamStd-Book';
+	src: url('fonts/CheltenhamStd-Book.eot');
+	src: local('☺'), url('fonts/CheltenhamStd-Book.woff') 
+	format('woff'), url('fonts/CheltenhamStd-Book.ttf') 
+	format('truetype'), url('fonts/CheltenhamStd-Book.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_CheltenhamStd-Light';
+	src: url('fonts/CheltenhamStd-Light.eot');
+	src: local('☺'), url('fonts/CheltenhamStd-Light.woff') 
+	format('woff'), url('fonts/CheltenhamStd-Light.ttf') 
+	format('truetype'), url('fonts/CheltenhamStd-Light.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_FuturaStd-Bold';
+	src: url('fonts/FuturaStd-Bold.eot');
+	src: local('☺'), url('fonts/FuturaStd-Bold.woff') 
+	format('woff'), url('fonts/FuturaStd-Bold.ttf') 
+	format('truetype'), url('fonts/FuturaStd-Bold.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_FuturaStd-Book';
+	src: url('fonts/FuturaStd-Book.eot');
+	src: local('☺'), url('fonts/FuturaStd-Book.woff') 
+	format('woff'), url('fonts/FuturaStd-Book.ttf') 
+	format('truetype'), url('fonts/FuturaStd-Book.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_FuturaStd-Light';
+	src: url('fonts/FuturaStd-Light.eot');
+	src: local('☺'), url('fonts/FuturaStd-Light.woff') 
+	format('woff'), url('fonts/FuturaStd-Light.ttf') 
+	format('truetype'), url('fonts/FuturaStd-Light.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HelveticaLTStd-Blk';
+	src: url('fonts/HelveticaLTStd-Blk.eot');
+	src: local('☺'), url('fonts/HelveticaLTStd-Blk.woff') 
+	format('woff'), url('fonts/HelveticaLTStd-Blk.ttf') 
+	format('truetype'), url('fonts/HelveticaLTStd-Blk.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HelveticaLTStd-Roman';
+	src: url('fonts/HelveticaLTStd-Roman.eot');
+	src: local('☺'), url('fonts/HelveticaLTStd-Roman.woff') 
+	format('woff'), url('fonts/HelveticaLTStd-Roman.ttf') 
+	format('truetype'), url('fonts/HelveticaLTStd-Roman.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HelveticaLTStd-Light';
+	src: url('fonts/HelveticaLTStd-Light.eot');
+	src: local('☺'), url('fonts/HelveticaLTStd-Light.woff') 
+	format('woff'), url('fonts/HelveticaLTStd-Light.ttf') 
+	format('truetype'), url('fonts/HelveticaLTStd-Light.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 
 body {
     background: #b6ecff1f;
@@ -937,6 +1026,7 @@ strong {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
 	padding-inline-start: 20px;
+	font-family: 'Conv_FuturaStd-Bold', sans-serif;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li,
