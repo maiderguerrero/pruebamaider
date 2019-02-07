@@ -779,6 +779,7 @@ body.is_app .pruebamaider-navbar.ocultar {
     position: relative;
     border-left: 0px;
     padding: 0px;
+    margin-bottom: 30px;
 }
 
 .bck-title2 {
