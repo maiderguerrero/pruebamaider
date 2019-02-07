@@ -1010,7 +1010,7 @@ strong {
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
   content: counter(bck-li-counter);
-  margin-top: 1px;
+  margin-top: -6px;
   padding-right: 0px;
   color: #A9A9A8;
   font-size: 8.5rem;
