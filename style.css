@@ -1,10 +1,15 @@
 /*General */
 @font-face {
-	font-family: 'handicraft';
-	src: url(fonts/OzHandicraftBT-Roman.ttf) format("truetype"),
-		 url('fonts/OzHandicraftBT-Roman.woff2') format('woff2'),
-         url('fonts/OzHandicraftBT-Roman.woff') format('woff');
+	font-family: 'Conv_CheltenhamStd-Bold';
+	src: url('fonts/CheltenhamStd-Bold.eot');
+	src: local('☺'), url('fonts/CheltenhamStd-Bold.woff') 
+	format('woff'), url('fonts/CheltenhamStd-Bold.ttf') 
+	format('truetype'), url('fonts/CheltenhamStd-Bold.svg') 
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+
 
 body {
     background: #b6ecff1f;
@@ -780,6 +785,7 @@ body.is_app .pruebamaider-navbar.ocultar {
     border-left: 0px;
     padding: 0px;
     margin-bottom: 30px;
+    font-family:'Conv_CheltenhamStd-Bold',Sans-Serif;
 }
 
 
