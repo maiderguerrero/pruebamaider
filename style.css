@@ -1208,7 +1208,7 @@ body:not(.edit) .bck-flipbox-face.back {
     top: 0;
     left: 0;
     z-index: 0;
-    font-family: 'Conv_HelveticaLTStd-Light', sans-serif;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
 }
 
 body:not(.edit) .back .bck-flipbox-title, body:not(.edit) .back .bck-flipbox-section {
