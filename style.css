@@ -1225,7 +1225,7 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 
 body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
     color: #fff;
-    font-family: 'Conv_FuturaStd-Book', sans-serif;
+    font-family: 'Conv_FuturaStd-Bold', sans-serif;
     font-size: 2.3rem;
 }
 
@@ -1277,6 +1277,25 @@ body:not(.edit) .bck-tabcontents .div-contents {
     max-width: 100%;
     font-size: 1.6rem;
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
+}
+
+
+/*LISTA ACTIVIDAD TIPO TEST*/
+
+#actividad .content .texto_curso ol li:before, 
+#actividad .content .workspace ol li ul li:before, 
+#actividad .content .texto_curso .bck-ol li:before, 
+#actividad .content .workspace ol li .bck-ol li:before {
+    content: counter(bck-li-counter, lower-alpha);
+    margin-top: 5px;
+    padding-right: 0px;
+	color: #414141;
+	font-size: 1.4rem;
+	font-weight: bold;
+    text-align: right;
+    position: absolute;
+    left: 0px;
+    font-family: 'Conv_CheltenhamStd-Bold', sans-serif;
 }
 
 
