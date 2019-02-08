@@ -1596,12 +1596,14 @@ table td.bck-td {
 	background-color: #878786;
     color: #fff;
     font-weight: 600;
+    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
 }
 
 table td.bck-td-dos {
 	background-color: #D4D4D4;
     color: #fff;
     font-weight: 600;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
 }
 
 
