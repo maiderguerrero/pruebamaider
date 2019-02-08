@@ -1291,20 +1291,21 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 /*lista*/
 
-#actividad .content .texto_curso ol li:before, 
-#actividad .content .workspace ol li ol li:before, 
-#actividad .content .texto_curso .bck-ol li:before, 
-#actividad .content .workspace ol li .bck-ol li:before {
-    content: counter(bck-li-counter, lower-alpha);
-    margin-top: 5px;
-    padding-right: 0px;
-	color: #414141;
-	font-size: 1.4rem;
-	font-weight: bold;
-    text-align: right;
+#actividad .content .texto_curso ul li:before, 
+#actividad .content .workspace ul li ul li:before, 
+#actividad .content .texto_curso .bck-ul li:before, 
+#actividad .content .workspace ul li .bck-ul li:before {
+    content: "";
     position: absolute;
-    left: 0px;
-    font-family: 'Conv_CheltenhamStd-Bold', sans-serif;
+    height: 6px;
+    width: 6px;
+    background-color: #000;
+    margin-top: 12px;
+    margin-left: -15px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+
 }
 
 
