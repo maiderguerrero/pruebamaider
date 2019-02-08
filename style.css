@@ -1203,13 +1203,16 @@ body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back 
 }
 
 body:not(.edit) .bck-flipbox-face.back {
-    color: #4D4D4D !important;
     background-color: #d4d4d4;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
     font-family: 'Conv_HelveticaLTStd-Light', sans-serif;
+}
+
+body:not(.edit) .back .bck-flipbox-title, body:not(.edit) .back .bck-flipbox-section {
+    color: #4D4D4D;
 }
 
 /*titulo flipbox*/
