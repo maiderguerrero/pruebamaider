@@ -1162,7 +1162,7 @@ strong {
 #actividad .popover-content ol.bck-ol-5 li:before,
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
 	content: counter(bck-li-counter, lower-alpha);
-    margin-top: 5px;
+    margin-top: 0px;
     padding-right: 0px;
 	color: #414141;
 	font-size: 1.4rem;
