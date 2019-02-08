@@ -40,7 +40,6 @@
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
 
-				{ name: 'Flipbox', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-flipbox' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
