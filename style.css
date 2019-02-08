@@ -1267,6 +1267,15 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 
 */
 
+body:not(.edit) .bck-tabs-box.vertical-tabs .bck-tabpanel {
+    height: 400px;
+    float: left;
+    width: 100%;
+    padding: 0 12px;
+    overflow: auto;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
+}
+
 /*tooltip*/
 .bck-tooltip {
     text-decoration: none;
