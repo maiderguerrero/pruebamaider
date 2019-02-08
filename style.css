@@ -1299,7 +1299,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
     position: absolute;
     height: 6px;
     width: 6px;
-    background-color: #000;
+    background-color: #414141;
     margin-top: 12px;
     margin-left: -15px;
     margin-right: 7px;
