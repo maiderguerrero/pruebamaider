@@ -1230,6 +1230,28 @@ body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-s
 }
 
 
+/*TABLAS TAB*/
+
+.bck-tabtitles {
+    background-color: #d4d4d4;
+    overflow: hidden;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 14px;
+    transition: .3s;
+    display: inline-block;
+    float: left;
+    font-family: 'Conv_FuturaStd-Bold', sans-serif;  
+    color: #fff;
+}
+
+.bck-tabslists {
+    overflow: hidden;
+    background-color: #d4d4d4;
+}
+
+
 /*tooltip*/
 .bck-tooltip {
     text-decoration: none;
