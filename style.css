@@ -1280,7 +1280,16 @@ body:not(.edit) .bck-tabcontents .div-contents {
 }
 
 
-/*LISTA ACTIVIDAD TIPO TEST*/
+/*ACTIVIDAD TIPO TEST*/
+
+#actividad .workspace.test .respuestas li {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Conv_CheltenhamStd-Book', serif;
+}
+
+/*lista*/
 
 #actividad .content .texto_curso ol li:before, 
 #actividad .content .workspace ol li ul li:before, 
