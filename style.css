@@ -1292,7 +1292,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 /*lista*/
 
 #actividad .content .texto_curso ol li:before, 
-#actividad .content .workspace ol li ul li:before, 
+#actividad .content .workspace ol li ol li:before, 
 #actividad .content .texto_curso .bck-ol li:before, 
 #actividad .content .workspace ol li .bck-ol li:before {
     content: counter(bck-li-counter, lower-alpha);
