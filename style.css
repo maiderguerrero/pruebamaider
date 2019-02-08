@@ -1192,9 +1192,7 @@ body:not(.edit) .bck-flipbox-face.front {
 
 body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back {
     backface-visibility: hidden;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #999;
+    border: none;
     transform-style: preserve-3d;
     transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -1202,6 +1200,7 @@ body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back 
     -webkit-transition: all .5s ease-in-out;
     height: 100%;
     width: 100%;
+    background-color: #c8c8c8;
 }
 
 body:not(.edit) .bck-flipbox-face.back {
