@@ -1252,20 +1252,7 @@ body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-s
 }
 
 
-/*tab vertical
-
-body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
-    width: 80%;
-    height: 100%;
-    float: left;
-    background-color: #fff;
-    border-top: 0;
-    border-bottom: 0;
-    border-left: 1px solid #ccc;
-    border-right: 0;
-    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-
-*/
+/*tab vertical*/
 
 body:not(.edit) .bck-tabs-box.vertical-tabs .bck-tabpanel {
     height: 400px;
@@ -1273,8 +1260,25 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .bck-tabpanel {
     width: 100%;
     padding: 0 12px;
     overflow: auto;
+    font-size: 1.6rem;
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
 }
+
+/*tab horizontal*/
+
+body:not(.edit) .bck-tabcontents .div-contents {
+    display: none;
+    padding: 6px 12px;
+    background-color: #fff;
+    padding: 6px 12px;
+    border-left: 0;
+    border-top: 1px solid #ccc;
+    max-height: 100%;
+    max-width: 100%;
+    font-size: 1.6rem;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
+}
+
 
 /*tooltip*/
 .bck-tooltip {
