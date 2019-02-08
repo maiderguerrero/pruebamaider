@@ -36,7 +36,6 @@
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
 				{ name: 'Celda1', element: 'td', attributes: { 'class': 'bck-td'} },
 				{ name: 'Celda2', element: 'td', attributes: { 'class': 'bck-td-dos'} },
-				{ name: 'Celda morada', element: 'td', attributes: { 'class': 'bck-td-tres'} },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
 
