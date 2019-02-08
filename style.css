@@ -1264,6 +1264,11 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .bck-tabpanel {
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
 }
 
+body:not(.edit) .bck-tabs-box {
+    background-color: #d4d4d4;
+    border: 1px solid #ccc;
+}
+
 /*tab horizontal*/
 
 body:not(.edit) .bck-tabcontents .div-contents {
