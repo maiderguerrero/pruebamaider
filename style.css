@@ -1252,7 +1252,7 @@ body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-s
 }
 
 
-/*tab vertical
+/*tab vertical*/
 
 body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     width: 80%;
@@ -1264,7 +1264,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     border-left: 1px solid #ccc;
     border-right: 0;
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-    */
+    
 
 /*tooltip*/
 .bck-tooltip {
