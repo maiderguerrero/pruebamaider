@@ -555,7 +555,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 	margin: 0;
 	text-align: left;
 	border: none;
-	color: #D4D4D4;
+	color: #fff;
     vertical-align: bottom;
 }
 
@@ -604,7 +604,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 }
 
 .body_clase .pruebamaider-navbar .navbar-content h2 {
-	color: #D4D4D4;
+	color: #fff;
 	font-weight: 600;
 	font-size: 2.2rem;
 	margin-bottom: 0;
@@ -1903,7 +1903,6 @@ table td.bck-td-dos {
 
 	.body_clase .pruebamaider-navbar .navbar-content h2 {
 		font-size: 2.2rem;
-		color: #fff;
 	}
 
 	.body_clase .pruebamaider-navbar .dropdown {
@@ -1914,7 +1913,6 @@ table td.bck-td-dos {
 
 	.body_clase .pruebamaider-navbar .dropdown button {
 		padding-bottom: 0px;
-		color: #fff;
 	}
 
 	.body_clase:not(.edit) .logo-publisher {
