@@ -576,7 +576,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 .body_clase .pruebamaider-navbar .dropdownTemas {
 	position: relative;
 	display: inline-block;
-    border-right: 5px solid #D4D4D4;
+    border-right: 5px solid #fff;
     padding-right: 40px;
     margin-left: 50px;
     width: 45%;
