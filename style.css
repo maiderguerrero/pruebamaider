@@ -1290,6 +1290,24 @@ body:not(.edit) .bck-tabcontents .div-contents {
 /*ACTIVIDADES*/
 /*sopa de letras*/
 
+.rf-wordcontainer li .index {
+    margin-right: 5px;
+    display: none;
+}
+
+/*Marcar respuesta*/
+
+#actividad .workspace.chooseblanks .inline-answer a {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #cfcfcf;
+    padding: 3px 6px;
+    margin: 0 2px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+
 /*crucigrama*/
 
 .slide.crosswords-puzzle .enunciados {
