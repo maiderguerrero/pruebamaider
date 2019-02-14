@@ -564,7 +564,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 }
 
 .body_clase .pruebamaider-navbar .dropdown .caret {
-	border-color: #D4D4D4 transparent transparent transparent;
+	border-color: #fff transparent transparent transparent;
 	margin-left: 10px;
 }
 
@@ -594,7 +594,7 @@ body.is_app .pruebamaider-navbar.ocultar {
 }
 
 .body_clase .pruebamaider-navbar .dropdownTemas .caret{
-	border-color: #D4D4D4 transparent transparent transparent;
+	border-color: #fff transparent transparent transparent;
 	margin-left: 10px;
 }
 
@@ -1903,6 +1903,7 @@ table td.bck-td-dos {
 
 	.body_clase .pruebamaider-navbar .navbar-content h2 {
 		font-size: 2.2rem;
+		color: #fff;
 	}
 
 	.body_clase .pruebamaider-navbar .dropdown {
@@ -1913,6 +1914,7 @@ table td.bck-td-dos {
 
 	.body_clase .pruebamaider-navbar .dropdown button {
 		padding-bottom: 0px;
+		color: #fff;
 	}
 
 	.body_clase:not(.edit) .logo-publisher {
