@@ -1679,8 +1679,8 @@ table td.bck-td-dos {
 }
 
  .btn-primary.disabled, .btn-primary.disabled:focus {
-    background-color: #FFEDB3;
-    color: grey;
+    background-color: #D4D4D4;
+    color: #fff;
     font-size: 1.6rem;
     border-radius: 0px;
 }
